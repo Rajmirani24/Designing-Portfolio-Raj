@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/457345bdae.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- Back to top button -->
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" onclick="scrollToTop()"> <b> ^ </b> </button>
+
+    <!---------------------------------HEADER SECTION------------------------------------------>
+    <div id="header" class="section active">
+        <div class="container">
+            <nav>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <img src="images/raj logo.png" class="logo"><br><br>
+                <i>
+                    <p>[Your friendly neighbourhood graphic designer]</p>
+                </i>
+            </div>
+        </div>
+    </div>
+        <!---------------------------------ABOUT SECTION------------------------------------------>
+        <div id="about" class="section">
+            <div class="container-content">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/images/rajabout.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">Hey <span>everyone</span></h1><br>
+                        <p>
+                            I am Raj Mirani, a visionary Graphic Designer & Video Editor.<br>
+                            Passionate about turning your imagination into reality.<br>
+                            Need a cute attraction like the doggo to boost your brand? <br>
+                            <span>That's</span> where I come in.<br>
+                            <span>Let's</span> create unique and attractive designs together!
+                        </p>
+                        <div class="tab-titles">
+
+                            <p class="tab-links active-link" onclick="opentab('skills', event)"><b>Skills</b></p>
+                            <p class="tab-links" onclick="opentab('expirence', event)"><b>Expirence</b></p>
+                            <p class="tab-links" onclick="opentab('education', event)"><b>Education</b></p>
+
+                        </div>
+                        <!--------------ABOUT skills SECTION-------------->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><img src="/images/bulletin.png"> Graphic Designing </li>
+                                <li><img src="/images/bulletin.png">  Video Editing </li>
+                                <li><img src="/images/bulletin.png"> Problem Solving and Ideation</li>
+                                <li><img src="/images/bulletin.png"> Project Management </li>
+                                <li><img src="/images/bulletin.png"> Time  Management </li>
+                            </ul>
+                        </div>
+
+                        <!--------------ABOUT exp SECTION-------------->
+                        <div class="tab-contents" id="expirence">
+                            <ul>
+                                <li><img src="/images/bulletin.png"> Freelancing in creative field.</li>
+                                <li><img src="/images/bulletin.png"> Content Creation for companies like Mumbai Indians,
+                                    IDFC and Dekroft. </li>
+                                <li><img src="/images/bulletin.png"> Creative head in college committees (EESA).</li>
+                            </ul>
+                        </div>
+
+                        <!--------------ABOUT education SECTION-------------->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><img src="/images/bulletin.png"> Graduated as Electrical Engineer from Mumbai
+                                    University in 2024</li>
+                                <li><img src="/images/bulletin.png"> Honors in Data Science from Mumbai University in
+                                    2024</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------services SECTION------------------------------------------>
+        <div id="services" class="section">
+            <div class="container-content">
+                <h1 class="subtitle"><span>Services</span> I provide</h1>
+                <div class="services-list">
+                    <!------------------------------------Video editing------------------------------------------->
+                    <div>
+                        <img src="/images/video editing.png" alt="video editing" class="primary-img">
+                        <img src="/images/VE_content.png" alt="Hover image" class="hover-img">
+                    </div>
+                    <!------------------------------------Color gradient------------------------------------------->
+                    <div>
+                        <img src="/images/color grading.png" alt="color grading" class="primary-img">
+                        <img src="/images/CG_content.png" alt="Hover image" class="hover-img">
+                    </div>
+                    <!------------------------------------Motion grapgic------------------------------------------->
+                    <div>
+                        <img src="/images/motion graphic.png" alt="motion graphic" class="primary-img">
+                        <img src="/images/MG_content.png" alt="Hover image" class="hover-img">
+                    </div>
+                    <!------------------------------------Social Media------------------------------------------->
+                    <div>
+                        <img src="/images/social media.png" alt="social media post / reels" class="primary-img">
+                        <img src="/images/SM_content.png" alt="Hover image" class="hover-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!---------------------------------WORK SECTION------------------------------------------>
+        <div id="portfolio" class="section">
+            <div class="container-content">
+                <h1 class="subtitle">MY <span>WORK</span></h1>
+                <div class="worklist-container">
+                    <div class="worklist">
+                        <!-- Each work item -->
+                        <div class="work" onclick="openModal('dekroft')">
+                            <img class="dekroftlogo" src="/images/dekroft.jpg">
+                            <div class="layer">Click</div>
+                        </div>
+
+                        <div class="work" onclick="openModal('batak')">
+                            <img class="bataklogo" src="/images/bataklogo.jpg">
+                            <div class="layer">Click</div>
+                        </div>
+
+                        <div class="work" onclick="openModal('eesa')">
+                            <img class="eesalogo" src="/images/eesalogo.jpg">
+                            <div class="layer">Click</div>
+                        </div>
+
+                        <div class="work" onclick="openModal('mi')">
+                            <img class="miidfclogo" src="/images/miidfc.jpg">
+                            <div class="layer">Click</div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------Nav scroll arrow------------------------------------------->
+                    <div class="navigation-arrows">
+                        <div class="navigation-arrows">
+                            <button class="arrow arrow-prev" onclick="scrollWork(-1)"><i
+                                class="fas fa-chevron-left"></i></button>
+                        <button class="arrow arrow-next" onclick="scrollWork(1)"><i
+                                class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- Modal for batak -->
+                <div id="modal-batak" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img class="modal-image" src="/images/Batak_description.png" alt="dekroft_description">
+
+                        <div class="batak-grid">
+                            <img src="/images/Batakmodal1.png">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal for dekroft -->
+                <div id="modal-dekroft" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img class="modal-image" src="/images/dekroft_description.png" alt="dekroft_description">
+
+                        <div class="dekroft-grid">
+                            <video controls>
+                                <source src="/videos/dekroft_new.mov" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal for eesa -->
+                <div id="modal-eesa" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img class="modal-image" src="/images/EESA_description.png" alt="EESA_description">
+                        <div class="eesa-grid">
+                            <img src="/images/1.jpg">
+                            <img src="/images/2.jpg">
+                            <img src="/images/3.jpg">
+                            <img src="/images/Copy of CFP IBSSC 2024.jpg">
+                            <img src="/images/4.jpg">
+                            <img src="/images/eesa_invitation.jpg">
+
+                            <video controls>
+                                <source src="/videos/SYMPOSIUM.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal for mi -->
+                <div id="modal-mi" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img class="modal-image" src="/images/mixidfcdescription.png" alt="mixidfcdescription">
+
+                        <div class="mi-grid">
+                            <video controls>
+                                <source src="/videos/MIxIDFC promotion.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--------------------------------------------------------CONTACT ME SECTION--------------------------------------------------------->
+        <div id="contact" class="section">
+            <div class="container-content">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact <span> Me </span></h1>
+                        <!------------------------------------personal link/resume------------------------------------------->
+                        <p>
+                        <p><a href="mailto:rajmirani02@gmail.com" target="_blank"><img src="/images/mail logo.png"
+                                    alt="mail logo"> <span class="link-text">rajmirani02@gmail.com</span></a></p>
+
+                        <p><a href="tel:+918828166222"><img src="/images/phone logo.png" alt="phone logo"> <span
+                                    class="link-text">+91-8828166222</span></a></p>
+
+                        <p><a href="https://instagram.com/raj.mirani_24" target="_blank"><img
+                                    src="/images/insta logo.png" alt="insta logo"> <span  class="link-text">raj.mirani_24</span></a></p>
+
+                        <p><a href="images/Raj_resume.pdf" download><img src="/images/resume logo.png"
+                                    alt="resume logo"> <span class="link-text">Download Resume</span></a></p>
+
+                        
+                        </p>
+
+                    </div>
+                    <!------------------------------------Contact form------------------------------------------->
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2"><b>SUBMIT</b></button>
+                        </form>
+                        <span id="msg"></span>
+                    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------FOOTER------------------------------------------->
+        <div class="copyright">
+
+            <p>Made with <i class="fa-solid fa-heart"></i> by Nidhi Sawant.<br>
+                For more details contact: <a href="mailto:sawantnidhi2020@gmail.com">
+                    <span class="link-text">sawantnidhi2020@gmail.com</span></a>
+            </p><br>
+            <p class="copy">&copy; 2024 Nidhi Sawant. All Rights Reserved.</p>
+        </div>
+
+
+
+        <!------------------------------------------JAVASCRIPT LINK------------------------------------------------>
+        <!-- Link to the new JavaScript file for about me-->
+        <script src="about.js"></script>
+
+        <!-- Link to the new JavaScript file for menu and cross icon-->
+        <script src="menu.js"></script>
+
+        <!-- Link to the new JavaScript file for navigate arrow-->
+        <script src="navigate_arrow.js"></script>
+
+        <!--  new JavaScript file for google sheet connection -->
+        <script src="contact_form.js"></script>
+
+        <!--  new JavaScript file for modal -->
+        <script src="modal.js"></script>
+        <!-- Link to the new JavaScript file for work section -->
+        <script src="work.js"></script>
+        <script src="backto_top.js"></script>
+
+        
+
+</body>
+
+</html>
