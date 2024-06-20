@@ -1533,8 +1533,8 @@ form .row {
 
     .logo {
         flex: 0 0 auto; 
-        width: 15%; /* Set the width of the logo */
-        max-width: 300px; /* Limit the maximum width of the logo */
+        width: 45%; /* Set the width of the logo */
+        max-width: 320px; /* Limit the maximum width of the logo */
         height: auto; /* Allow the height to adjust proportionally */
         margin: 0 auto; //* Prevent logo from stretching */
     }
@@ -1544,7 +1544,7 @@ form .row {
     }
 
     .header-text {
-        font-size: 2vw; /* Set font size relative to viewport width */
+        font-size: 32PX; /* Set font size relative to viewport width */
         margin-top: 15%; /* Adjust margin top */
     }
 
