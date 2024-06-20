@@ -1532,13 +1532,13 @@ form .row {
     }
 
     .logo {
-        flex: 0 0 auto; 
+       flex: 0 0 auto; 
         width: 15%; /* Set the width of the logo */
         max-width: 320px; /* Limit the maximum width of the logo */
-        margin-top: -60px;
         height: auto; /* Allow the height to adjust proportionally */
         margin: 0 auto; /* Prevent logo from stretching */
-        vertically-aligned: middle;
+        vertical-align: middle;
+        margin-top: -60px;
     }
 
     nav ul li a {
