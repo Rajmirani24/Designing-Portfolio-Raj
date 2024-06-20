@@ -196,7 +196,7 @@ nav ul li a:hover::after {
 
 .subtitle span {
     text-decoration: none; /* Remove default underline */
-    border-bottom: 2px solid #FFCC29; /* Set custom underline thickness and color */
+    border-bottom: 4px solid #FFCC29; /* Set custom underline thickness and color */
     padding-bottom: 2px; /* Adjust spacing between text and underline as needed */
 }
 
