@@ -1533,10 +1533,12 @@ form .row {
 
     .logo {
         flex: 0 0 auto; 
-        width: 45%; /* Set the width of the logo */
+        width: 15%; /* Set the width of the logo */
         max-width: 320px; /* Limit the maximum width of the logo */
+        margin-top: -60px;
         height: auto; /* Allow the height to adjust proportionally */
         margin: 0 auto; //* Prevent logo from stretching */
+        vertically-aligned: middle;
     }
 
     nav ul li a {
@@ -1544,7 +1546,7 @@ form .row {
     }
 
     .header-text {
-        font-size: 32PX; /* Set font size relative to viewport width */
+        font-size: 24PX; /* Set font size relative to viewport width */
         margin-top: 15%; /* Adjust margin top */
     }
 
