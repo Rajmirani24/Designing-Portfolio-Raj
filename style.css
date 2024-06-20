@@ -1537,7 +1537,7 @@ form .row {
         max-width: 320px; /* Limit the maximum width of the logo */
         margin-top: -60px;
         height: auto; /* Allow the height to adjust proportionally */
-        margin: 0 auto; //* Prevent logo from stretching */
+        margin: 0 auto; /* Prevent logo from stretching */
         vertically-aligned: middle;
     }
 
